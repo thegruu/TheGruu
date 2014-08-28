@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Alteração de Usuário</title>
+</head>
+<body>
+
+		<form action="usucontroller.do" method="post">
+		
+		  <p></br>
+		  </p>
+		  <table width="248" border="1" align="center">
+		    <tr>
+		      <td colspan="2">ALTERAÇÃO DE USUARIO</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td width="79">Nome:</td>
+		      <td width="153"><input type="text" name="txtnome" value="" size="20"/></td>
+	        </tr>
+		    <tr>
+		      <td>Sobrenome:</td>
+		      <td><input type="text" name="txtsobrenome" value="" size="20"/></td>
+	        </tr>
+		    <tr>
+		      <td><label>Apelido:</label></td>
+		      <td><input type="text" name="txtapelido" value="" size="20"/></td>
+	        </tr>
+		    <tr>
+		      <td><label>Nascimento:</label></td>
+		      <td><input type="date" name="dtnascimento" value="" maxlength="6"/></td>
+	        </tr>
+		    <tr>
+		      <td colspan="2"><label>
+		        <input type="radio" name="txtsexo" id="masc" value="M" />
+		        Masculino</label>
+                <label>
+                  <input type="radio" name="txtsexo" id="fem" value="F" />
+              Feminino</label></td>
+	        </tr>
+		    <tr>
+		      <td>Cidade:</td>
+		      <td><select name="intcidade" id="intcidade">
+		        <option value="1">Florianópolis</option>
+		        <option value="2">São José</option>
+		        <option value="3">Joinville</option>
+	          </select></td>
+	        </tr>
+		    <tr>
+		      <td><label>E-mail:</label></td>
+		      <td><input type="text" name="txtemail" value="" size="20"/></td>
+	        </tr>
+		    <tr>
+		      <td><label>Senha:</label></td>
+		      <td><input type="password" name="passenha" value="" maxlength="6"/></td>
+	        </tr>
+		    <tr>
+		      <td><label>Foto:</label></td>
+		      <td><label>
+		        <input type="file" name="txtfoto" id="txtfoto">
+	          </label></td>
+	        </tr>
+		      <td colspan="2"><input type="submit" value="Salvar"/></td>
+	        </tr>
+	      </table>
+		  <p>&nbsp;</p>
+    </form>
+		<p>&nbsp;</p>
+</body>
+</html>

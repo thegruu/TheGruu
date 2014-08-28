@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro de Usuário</title>
+</head>
+<body>
+
+		<form action="usucontroller.do" method="post">
+		
+		<label>Nome: </label>
+		<input type="text" name="txtnome" value="" size="20"/></br>
+		
+		<label>Sobrenome: </label>
+		<input type="text" name="txtsobrenome" value="" size="20"/></br>
+		
+		<label>Apelido: </label>		
+		<input type="text" name="txtapelido" value="" size="20"/></br>
+		
+		<label>Nascimento: </label>
+		<input type="date" name="dtnascimento" value="" maxlength="6"/></br>
+	
+        <label>
+        <input type="radio" name="txtsexo" id="masc" value="M" />
+         Masculino</label>
+
+        <label>
+        <input type="radio" name="txtsexo" id="fem" value="F" />
+         Feminino</label></br>
+		
+		<label>Cidade
+			<select name="intcidade" id="intcidade">
+		        <option value="1">Florianópolis</option>
+		        <option value="2">São José</option>
+		        <option value="3">Joinville</option>
+	        </select>
+        </label></br>
+		
+		<label>E-mail: </label>		
+		<input type="text" name="txtemail" value="" size="20"/></br>
+		
+		<label>Senha: </label>
+		<input type="password" name="passenha" value="" maxlength="6"/></br>
+		
+		<label>Foto: </label>		
+		<input type="text" name="txtfoto" value="" size="20"/></br>
+		
+		<input type="submit" value="Salvar"/>
+	
+	
+	</form>
+
+</body>
+</html>
